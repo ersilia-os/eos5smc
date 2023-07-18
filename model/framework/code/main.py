@@ -8,14 +8,14 @@ from rdkit import RDLogger
 from pathlib import Path
 import tempfile
 
-from grover.util.parsing import parse_args, get_newest_train_args
-from grover.util.utils import create_logger
-from task.cross_validate import cross_validate
-from task.fingerprint import generate_fingerprints
-from task.predict import make_predictions, write_prediction
-from task.pretrain import pretrain_model
-from grover.data.torchvocab import MolVocab
-import scripts.save_features as sf
+from ..grover.grover.util.parsing import parse_args, get_newest_train_args
+from ..grover.grover.util.utils import create_logger
+from ..grover.task.cross_validate import cross_validate
+from ..grover.task.fingerprint import generate_fingerprints
+from ..grover.task.predict import make_predictions, write_prediction
+from ..grover.task.pretrain import pretrain_model
+from ..grover.grover.data.torchvocab import MolVocab
+import framework.grover.scripts.save_features as sf
 
 class Namespace:
     def __init__(self, **kwargs):
