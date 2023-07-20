@@ -30,7 +30,7 @@ class Model(object):
     def __init__(self):
         self.DATA_FILE = "_data.csv"
         self.PRED_FILE = "_pred.csv"
-        self.RUN_FILE = "_run.sh"
+        self.RUN_FILE = "run.sh"
         self.LOG_FILE = "_run.log"
 
     def load(self, framework_dir, checkpoints_dir):
