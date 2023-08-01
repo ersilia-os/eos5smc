@@ -28,5 +28,11 @@
     "Publication": "https://papers.nips.cc/paper/2020/file/94aef38441efa3380a3bed3faf1f9d5d-Paper.pdf",
     "Source Code": "https://github.com/tencent-ailab/grover",
     "License": "MIT",
-    "Contributor": "Amna-28"
+    "Contributor": "Amna-28",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5smc",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
 }

@@ -25,6 +25,8 @@ Predicts activity of compounds in the Tox21 toxicity panel, comprising of 12 tox
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos5smc)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos5smc) (AMD64, ARM64)
 
 ## Citation
 
