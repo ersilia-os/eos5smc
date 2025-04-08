@@ -1,0 +1,25 @@
+WARNING:root:No normalization for BCUT2D_MWHI
+WARNING:root:No normalization for BCUT2D_MWLOW
+WARNING:root:No normalization for BCUT2D_CHGHI
+WARNING:root:No normalization for BCUT2D_CHGLO
+WARNING:root:No normalization for BCUT2D_LOGPHI
+WARNING:root:No normalization for BCUT2D_LOGPLOW
+WARNING:root:No normalization for BCUT2D_MRHI
+WARNING:root:No normalization for BCUT2D_MRLOW
+[WARNING] Horovod cannot be imported; multi-GPU training is unsupported
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 58.19it/s]
+Loading training args
+Traceback (most recent call last):
+  File "./code/main.py", line 86, in <module>
+    avg_preds, test_smiles = make_predictions(args, train_args)
+  File "/home/muobo/refactor/eos5smc/model/framework/code/task/predict.py", line 96, in make_predictions
+    scaler, features_scaler = load_scalars(path)
+  File "/home/muobo/refactor/eos5smc/model/framework/code/grover/util/utils.py", line 736, in load_scalars
+    state = torch.load(path, map_location=lambda storage, loc: storage)
+  File "/home/muobo/miniconda3/envs/eos5smc/lib/python3.7/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/muobo/miniconda3/envs/eos5smc/lib/python3.7/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/muobo/miniconda3/envs/eos5smc/lib/python3.7/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/muobo/refactor/eos5smc/model/framework/finetune/tox21/fold_0/model_0/model.pt'
