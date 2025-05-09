@@ -3,21 +3,18 @@
     "Slug": "grover-tox21",
     "Status": "Ready",
     "Title": "Predicts activity of compounds accross the Tox21 panel",
-    "Description": "Predicts activity of compounds in the Tox21 toxicity panel, comprising of 12 toxicity pathways, as part of the MoleculeNet benchmark datasets. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER)\n",
+    "Description": "Predicts activity of compounds in the Tox21 toxicity panel, comprising of 12 toxicity pathways, as part of the MoleculeNet benchmark datasets. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER)",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Activity prediction",
-    "Biomedical Area": [
-        "ADMET"
-    ],
-    "Target Organism": [
-        "Homo sapiens"
-    ],
     "Output": [
         "Probability"
     ],
@@ -29,20 +26,23 @@
         "Toxicity",
         "Chemical graph model"
     ],
-    "Publication": "https://arxiv.org/abs/2007.02835",
+    "Biomedical Area": [
+        "ADMET"
+    ],
+    "Target Organism": [
+        "Homo sapiens"
+    ],
     "Publication Type": "Preprint",
     "Publication Year": 2020,
+    "Publication": "https://arxiv.org/abs/2007.02835",
     "Source Code": "https://github.com/tencent-ailab/grover",
     "License": "MIT",
     "Contributor": "Amna-28",
     "Incorporation Date": "2022-07-12",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5smc",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip",
-    "Deployment": [
-        "Local"
     ]
 }
