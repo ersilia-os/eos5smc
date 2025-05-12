@@ -20,7 +20,7 @@ if __name__ == '__main__':
     input_len = len(read_smiles)
     output_len = len(outputs)
     assert input_len == output_len
-    cols = ['nr-ar', 'nr-ar-lbd', 'nr-ahr', 'nr-aromatase', 'nr-er', 'nr-er-lbd', 'nr-ppar-gamma', 'sr-are', 'sr-atad5', 'sr-hse', 'sr-mmp', 'sr-p53']
+    cols = ['nr_ar', 'nr_ar_lbd', 'nr_ahr', 'nr_aromatase', 'nr_er', 'nr_er_lbd', 'nr_ppar_gamma', 'sr_are', 'sr_atad5', 'sr_hse', 'sr_mmp', 'sr_p53']
 
     # write output in a .csv file
     with open(output_file, "w") as f:
