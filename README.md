@@ -28,16 +28,16 @@ This model was incorporated on 2022-07-12.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| nr-ar | float | high | Probability of inhibition of the Tox21 target nr-ar |
-| nr-ar-lbd | float | high | Probability of inhibition of the Tox21 target nr-ar-lbd |
-| nr-ahr | float | high | Probability of inhibition of the Tox21 target nr-ahr |
-| nr-aromatase | float | high | Probability of inhibition of the Tox21 target nr-aromatase |
-| nr-er | float | high | Probability of inhibition of the Tox21 target nr-er |
-| nr-er-lbd | float | high | Probability of inhibition of the Tox21 target nr-er-lbd |
-| nr-ppar-gamma | float | high | Probability of inhibition of the Tox21 target nr-ppar-gamma |
-| sr-are | float | high | Probability of inhibition of the Tox21 target sr-are |
-| sr-atad5 | float | high | Probability of inhibition of the Tox21 target sr-atad5 |
-| sr-hse | float | high | Probability of inhibition of the Tox21 target sr-hse |
+| nr_ar | float | high | Probability of inhibition of the Tox21 target nr_ar |
+| nr_ar_lbd | float | high | Probability of inhibition of the Tox21 target nr_ar_lbd |
+| nr_ahr | float | high | Probability of inhibition of the Tox21 target nr_ahr |
+| nr_aromatase | float | high | Probability of inhibition of the Tox21 target nr_aromatase |
+| nr_er | float | high | Probability of inhibition of the Tox21 target nr_er |
+| nr_er_lbd | float | high | Probability of inhibition of the Tox21 target nr_er_lbd |
+| nr_ppar_gamma | float | high | Probability of inhibition of the Tox21 target nr_ppar_gamma |
+| sr_are | float | high | Probability of inhibition of the Tox21 target sr_are |
+| sr_atad5 | float | high | Probability of inhibition of the Tox21 target sr_atad5 |
+| sr_hse | float | high | Probability of inhibition of the Tox21 target sr_hse |
 
 _10 of 12 columns are shown_
 ### Source and Deployment
