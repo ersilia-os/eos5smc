@@ -9,6 +9,7 @@ if __name__ == '__main__':
     # parse arguments
     input_file = sys.argv[1]
     output_file = sys.argv[2]
+    output_file = output_file.strip()
 
     # current file directory
     root = os.path.dirname(os.path.abspath(__file__))
