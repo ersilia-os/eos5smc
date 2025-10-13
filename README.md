@@ -2,8 +2,7 @@
 
 Predicts activity of compounds in the Tox21 toxicity panel, comprising of 12 toxicity pathways, as part of the MoleculeNet benchmark datasets. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER)
 
-This model was incorporated on 2022-07-12.
-
+This model was incorporated on 2022-07-12.Last packaged on 2025-10-13.
 
 ## Information
 ### Identifiers
@@ -51,11 +50,11 @@ _10 of 12 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1310`
 - **Environment Size (Mb):** `2422`
-- **Image Size (Mb):** `6273.84`
+- **Image Size (Mb):** `6356.19`
 
 **Computational Performance (seconds):**
-- 10 inputs: `49.17`
-- 100 inputs: `445.26`
+- 10 inputs: `34.71`
+- 100 inputs: `160.91`
 - 10000 inputs: `-1`
 
 ### References
