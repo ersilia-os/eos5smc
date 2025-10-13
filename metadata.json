@@ -39,6 +39,8 @@
     "License": "MIT",
     "Contributor": "Amna-28",
     "Incorporation Date": "2022-07-12",
+    "Last Packaging Date": "2025-10-13",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5smc",
     "Docker Architecture": [
@@ -47,10 +49,10 @@
     ],
     "Model Size": 1310.0,
     "Environment Size": 2422.0,
-    "Image Size": 6273.84,
-    "Computational Performance 1": 49.17,
-    "Computational Performance 2": 84.69,
-    "Computational Performance 3": 445.26,
-    "Computational Performance 4": -1.0,
+    "Image Size": 6356.19,
+    "Computational Performance 1": 34.71,
+    "Computational Performance 2": 39.66,
+    "Computational Performance 3": 160.91,
+    "Computational Performance 4": 1460.57,
     "Computational Performance 5": -1.0
 }
