@@ -2,7 +2,7 @@
 
 Predicts activity of compounds in the Tox21 toxicity panel, comprising of 12 toxicity pathways, as part of the MoleculeNet benchmark datasets. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER)
 
-This model was incorporated on 2022-07-12.Last packaged on 2025-10-13.
+This model was incorporated on 2022-07-12.Last packaged on 2026-03-10.
 
 ## Information
 ### Identifiers
@@ -44,17 +44,17 @@ _10 of 12 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5smc](https://hub.docker.com/r/ersiliaos/eos5smc)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1310`
 - **Environment Size (Mb):** `2405`
-- **Image Size (Mb):** `6356.19`
+- **Image Size (Mb):** `6358.64`
 
 **Computational Performance (seconds):**
-- 10 inputs: `34.71`
-- 100 inputs: `160.91`
+- 10 inputs: `34.9`
+- 100 inputs: `159.91`
 - 10000 inputs: `-1`
 
 ### References
