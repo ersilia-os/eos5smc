@@ -1,6 +1,6 @@
 # Predicts activity of compounds accross the Tox21 panel
 
-Predicts activity of compounds in the Tox21 toxicity panel, comprising of 12 toxicity pathways, as part of the MoleculeNet benchmark datasets. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER)
+Reports activity across the twelve toxicity pathways assembled by the Tox21 initiative, covering nuclear receptor signalling and cellular stress response. The panel is distributed as part of MoleculeNet. Predictions derive from a graph transformer pretrained on 10 million unlabelled ChEMBL and ZINC15 molecules and subsequently fine-tuned on the twelve endpoints together. The assays are strongly imbalanced towards inactives, so a high score is more informative than a low one, and results reflect in vitro signalling rather than whole-organism toxicity.
 
 This model was incorporated on 2022-07-12.Last packaged on 2026-03-10.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2022-07-12.Last packaged on 2026-03-10.
 ### Output
 - **Output Dimension:** `12`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Toxicity measurements against 12 biological targets
+- **Interpretation:** Probability of activity in each of the twelve Tox21 toxicity pathways.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
