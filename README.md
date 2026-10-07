@@ -1,6 +1,6 @@
 # Predicts activity of compounds accross the Tox21 panel
 
-Reports activity across the twelve toxicity pathways assembled by the Tox21 initiative, covering nuclear receptor signalling and cellular stress response. The panel is distributed as part of MoleculeNet. Predictions derive from a graph transformer pretrained on 10 million unlabelled ChEMBL and ZINC15 molecules and subsequently fine-tuned on the twelve endpoints together. The assays are strongly imbalanced towards inactives, so a high score is more informative than a low one, and results reflect in vitro signalling rather than whole-organism toxicity.
+Reports activity across the twelve toxicity pathways assembled by the Tox21 initiative, covering nuclear receptor signalling and cellular stress response, as measured for 7,831 compounds in the MoleculeNet release of the 2014 Tox21 Data Challenge. Predictions come from a graph transformer pretrained on 10 million unlabelled ChEMBL and ZINC15 molecules, fine-tuned on the twelve endpoints together and averaged over three folds. The assays are heavily imbalanced towards inactives, and a hit reflects in vitro signalling rather than whole-organism toxicity.
 
 This model was incorporated on 2022-07-12.Last packaged on 2026-03-10.
 
