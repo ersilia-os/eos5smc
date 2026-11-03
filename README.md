@@ -3,7 +3,7 @@
 Reports activity across the twelve toxicity pathways assembled by the Tox21 initiative, covering nuclear receptor signalling and cellular stress response, as measured for 7,831 compounds in the MoleculeNet release of the 2014 Tox21 Data Challenge. Predictions come from a graph transformer pretrained on 10 million unlabelled ChEMBL and ZINC15 molecules, fine-tuned on the twelve endpoints together and averaged over three folds. The assays are heavily imbalanced towards inactives, and a hit reflects in vitro signalling rather than whole-organism toxicity.
 
 This model was incorporated on 2022-07-12.
-Last packaged on 2026-03-10.
+Last packaged on 2026-11-03.
 
 ## Information
 ### Identifiers
@@ -45,17 +45,17 @@ _10 of 12 columns are shown_
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5smc](https://hub.docker.com/r/ersiliaos/eos5smc)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1310`
 - **Environment Size (Mb):** `2404`
-- **Image Size (Mb):** `6358.64`
+- **Image Size (Mb):** `3685.96`
 
 **Computational Performance (seconds):**
-- 10 inputs: `34.9`
-- 100 inputs: `159.91`
+- 10 inputs: `31.15`
+- 100 inputs: `156.58`
 - 10000 inputs: `-1`
 
 ### References
