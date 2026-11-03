@@ -45,7 +45,7 @@
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5smc",
     "Docker Architecture": "AMD64",
     "Model Size": 1310.0,
-    "Environment Size": 2405.0,
+    "Environment Size": 2404.0,
     "Image Size": 6358.64,
     "Computational Performance 1": 34.9,
     "Computational Performance 2": 40.03,
