@@ -47,6 +47,7 @@ _10 of 12 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5smc](https://hub.docker.com/r/ersiliaos/eos5smc)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5smc.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos5smc_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos5smc_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1310`
